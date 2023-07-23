@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <!-- My Header -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="brand">Shopping Cart</a>
+
+          <nav>
+            <ul id="link">
+              <li><a href="login.html">Sign In</a></li>
+              <li><a href="register.html">Sign Up</a></li>
+            </ul>
+
+            <ul id="user_info">
+              <li><a href="#" id="user"></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Login Form -->
+    <section class="section-form">
+      <h2>Login User</h2>
+
+      <form>
+        <input type="text" placeholder="Enter Username" id="username" />
+        <input type="password" placeholder="Enter Password" id="password" />
+        <input type="submit" value="Sign In" id="sign_in" />
+        <p>
+          <b>I dont have an account</b> <a href="./register.html">Sign Up</a>
+        </p>
+      </form>
+    </section>
+
+    <!-- Custom JS File -->
+    <script src="./js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <!-- My header -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="brand">Shopping Cart</a>
+
+          <nav>
+            <ul id="links">
+              <li><a href="login.html">Sign In</a></li>
+              <li><a href="register.html">Sign Up</a></li>
+            </ul>
+
+            <ul id="user_info">
+              <!-- username is appear in this li -->
+              <li><a href="#" id="user"></a></li>
+              <li class="shopping_cart">
+                <!-- icon that click appear cart products  -->
+                <i class="fas fa-shopping-cart cartIcon"
+                  ><span class="counter">0</span></i
+                >
+
+                <!-- appear here  -->
+                <div class="cart_products">
+                  <div></div>
+                  <!-- link go to all more products  -->
+                  <hr />
+                  <p class="">
+                    <a href="./product_items.html">Show all Products</a>
+                  </p>
+                </div>
+              </li>
+              <li><a href="#" id="logout">Log Out</a></li>
+            </ul>
+            <!-- user_info -->
+          </nav>
+          <!-- nav -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Container -->
+    <div class="container">
+      <div class="cart row justify-content-around "></div>
+    </div>
+
+    <!-- Custom JS File -->
+    <script src="./js/script.js"></script>
+    <script src="./js/cart.js"></script>
+  </body>
+</html>
